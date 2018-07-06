@@ -22,7 +22,7 @@ function createIssue() {
   const token = getToken();
 
   fetch('/javascript-fetch-lab/issues/', {
-    method: /post/,
+    method: 'post',
     body: body,
     headers: {
       Authorization: `token ${token}`
