@@ -11,6 +11,13 @@ function createIssue() {
   //POST /repos/:owner/:repo/issues
   const title = document.getElementById('title').value;
   const body = document.getElementById('body').value;
+
+  fetch('https://api.github.com/repos/' + repo, {
+    method: /post/,
+    headers: {
+      Authorization: `token ${token}`
+    }
+  }).then(res => console.log(res));
 }
 
 function showResults(json) {
