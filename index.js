@@ -1,7 +1,12 @@
 function getIssues() {
   //After the issue is created, fetch and display a list of all issues associated with your repository on the page. Append them to a div with an id of "issues".
   const token = getToken();
-}
+  fetch('https://api.github.com/user/repos', {
+    headers: {
+      Authorization: `token ${token}`
+    }
+  }).then(res => res.json()).then(json => console.log(json));
+  }
 
 function showIssues(json) {
 }
