@@ -21,7 +21,7 @@ function forkRepo() {
   //POST /repos/:owner/:repo/forks
   ///api.github.com/repos/learn-co-curriculum/javascript-fetch-lab/
   fetch('https://api.github.com/repos/' + repo, {
-    method: 'POST',
+    method: '/post/',
     headers: {
       Authorization: `token ${token}`
     }
