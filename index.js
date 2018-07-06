@@ -12,6 +12,7 @@ function createIssue() {
   // /javascript-fetch-lab/issues/
   const title = document.getElementById('title').value;
   const body = document.getElementById('body').value;
+  const token = getToken();
 
   fetch('/javascript-fetch-lab/issues/', {
     method: /post/,
