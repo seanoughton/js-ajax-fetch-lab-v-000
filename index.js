@@ -15,6 +15,7 @@ function createIssue() {
 
   fetch('/javascript-fetch-lab/issues/', {
     method: /post/,
+    body: body,
     headers: {
       Authorization: `token ${token}`
     }
