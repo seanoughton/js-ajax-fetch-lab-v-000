@@ -9,6 +9,8 @@ function createIssue() {
   //Create a new issue for your forked repository with the createIssue function.
   //Use the title and body values from the provided form.
   //POST /repos/:owner/:repo/issues
+  const title = document.getElementById('title').value;
+  const body = document.getElementById('body').value;
 }
 
 function showResults(json) {
