@@ -7,7 +7,7 @@ function getIssues() {
       Authorization: `token ${token}`
     }
   }).then(res => res.json()).then(json => console.log(json));
-  }
+}
 
 function showIssues(json) {
 }
