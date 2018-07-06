@@ -59,5 +59,5 @@ function getToken() {
   //back to '' before committing so all tests pass
   const token = 'cca2e3bd6a7ead86ba7d9fae6fb5e434916c88b0';
   //return ''
-  return 'cca2e3bd6a7ead86ba7d9fae6fb5e434916c88b0';
+  return token
 }
