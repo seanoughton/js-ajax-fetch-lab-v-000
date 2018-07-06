@@ -20,7 +20,7 @@ function forkRepo() {
   //Display the JSON result in the results div by calling showForkedRepo
   //POST /repos/:owner/:repo/forks
   ///api.github.com/repos/learn-co-curriculum/javascript-fetch-lab/
-  fetch('https://api.github.com/${repo}', {
+  fetch('https://api.github.com/' + repo, {
     method: 'POST',
     headers: {
       Authorization: `token ${token}`
