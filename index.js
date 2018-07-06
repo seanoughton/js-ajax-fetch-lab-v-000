@@ -13,7 +13,7 @@ function createIssue() {
   const title = document.getElementById('title').value;
   const body = document.getElementById('body').value;
 
-  fetch('/javascript-fetch-lab/issues/' + repo, {
+  fetch('/javascript-fetch-lab/issues/', {
     method: /post/,
     headers: {
       Authorization: `token ${token}`
