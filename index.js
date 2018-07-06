@@ -6,7 +6,8 @@ function showIssues(json) {
 }
 
 function createIssue() {
-  //Create a new issue for your forked repository with the createIssue function. Use the title and body values from the provided form.
+  //Create a new issue for your forked repository with the createIssue function.
+  //Use the title and body values from the provided form.
 }
 
 function showResults(json) {
