@@ -1,5 +1,6 @@
 function getIssues() {
   //After the issue is created, fetch and display a list of all issues associated with your repository on the page. Append them to a div with an id of "issues".
+  const token = getToken();
 }
 
 function showIssues(json) {
